@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "TweetCurator",
+  "version": "0.1.0",
+  "description": "Curate and export replies from a single Twitter/X thread.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://x.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {},
+  "permissions": [],
+  "host_permissions": []
+}
+

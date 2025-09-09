@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en" class="theme-minimal">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LoopsDS – Design System</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../src/styles/tokens.css" />
+<link rel="stylesheet" href="../src/styles/components.css" />
+<style>
+.wrap{max-width:1100px;margin:auto;padding:28px}
+.subtitle{color:var(--muted);margin:0 0 24px}
+.section{margin:34px 0}
+.grid{display:grid;gap:16px}
+.grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.token{border:1px solid var(--stroke);border-radius:12px;padding:12px;background:var(--card);box-shadow:0 6px 24px var(--shadow)}
+.token .swatch{height:44px;border-radius:10px;margin-bottom:8px}
+.switch{display:flex;gap:8px}
+.switch button{border:1px solid var(--stroke);background:var(--card);padding:8px 12px;border-radius:10px;cursor:pointer}
+.switch button[aria-pressed="true"]{outline:2px solid var(--primary);color:var(--primary);font-weight:700}
+.small{font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+      <div>
+        <div class="wordmark">InTheLoops</div>
+        <div class="subtitle">“I saved you the best bits, so you don’t scroll forever.”</div>
+      </div>
+      <div class="switch" role="group" aria-label="Theme switch">
+        <button id="b-min" aria-pressed="true">Minimal</button>
+        <button id="b-ret">Retro</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Tokens</h2>
+      <div class="grid cols-3">
+        <div class="token"><div class="swatch" style="background:var(--bg)"></div><div class="small">--bg</div></div>
+        <div class="token"><div class="swatch" style="background:var(--text)"></div><div class="small">--text</div></div>
+        <div class="token"><div class="swatch" style="background:var(--muted)"></div><div class="small">--muted</div></div>
+        <div class="token"><div class="swatch" style="background:var(--primary)"></div><div class="small">--primary</div></div>
+        <div class="token"><div class="swatch" style="background:var(--accent)"></div><div class="small">--accent</div></div>
+        <div class="token"><div class="swatch" style="background:var(--highlight)"></div><div class="small">--highlight</div></div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <h2>Logos</h2>
+      <div class="grid cols-3">
+        <div class="token">
+          <img alt="Loop rings mark" src="../public/assets/brand/loop-rings.svg" style="height:48px"/>
+          <div class="small" style="margin-top:6px">Loop Rings Mark (SVG)</div>
+        </div>
+        <div class="token">
+          <img alt="Wordmark" src="../public/assets/brand/wordmark.svg" style="height:56px"/>
+          <div class="small" style="margin-top:6px">Wordmark (SVG)</div>
+        </div>
+        <div class="token" style="display:flex;align-items:center;justify-content:center">
+          <img alt="Retro banner" src="../public/assets/brand/retro-badge.svg" style="width:100%"/>
+          <div class="small" style="margin-top:6px">Retro Banner (SVG)</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <h2>Components</h2>
+      <div class="grid cols-3">
+        <div class="token">
+          <div class="wordmark">InTheLoops</div>
+          <div class="small">Minimal wordmark</div>
+        </div>
+        <div class="token">
+          <div class="retro-banner">YOU’RE IN THE LOOPS!</div>
+          <div class="small">Retro banner</div>
+        </div>
+        <div class="token">
+          <button class="button primary">Share the Loop</button>
+          <div class="small" style="margin-top:8px">Primary CTA</div>
+        </div>
+      </div>
+
+      <div class="grid cols-3" style="margin-top:16px">
+        <div class="card">
+          <div class="small">THE ORIGINAL POST</div>
+          <h3 style="margin:6px 0">Post headline goes here</h3>
+          <p>Curated replies, threads & comments—beautifully shared.</p>
+        </div>
+        <div class="card">
+          <div class="small">TOP REPLY</div>
+          <p>“This is the best reply—no scrolling required.”</p>
+          <div class="meter" style="margin-top:8px"><i></i></div>
+        </div>
+        <div class="card">
+          <span class="badge">Highlight Level: HOT</span>
+          <div style="margin-top:10px"><span class="pill">Original</span> <span class="pill">Thread</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="section">
+      <h2>Reactions</h2>
+      <div style="max-width:760px;margin:0 auto;">
+        <div class="card" id="rx-card-1" style="position:relative;min-height:140px">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+            <div class="badge" style="background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff">Demo</div>
+            <div class="small">Compact indicator system</div>
+          </div>
+          <p style="margin:10px 0 20px">Micro‑interactions that anticipate intent. Cursor proximity, hover affordances, and subtle spring animations.</p>
+
+          <!-- Active cluster (top-right inside card) -->
+          <div class="rx-active" data-rx="cluster"></div>
+
+          <!-- Selector bar (bottom of content) -->
+          <div class="rx-selector" data-rx="selector">
+            <button class="rx-option" data-key="FIRE" title="Fire">🔥</button>
+            <button class="rx-option" data-key="DEAD" title="Eyes">👀</button>
+            <button class="rx-option" data-key="FACTS" title="Target">🎯</button>
+            <button class="rx-option" data-key="BOOM" title="Boom">💥</button>
+            <button class="rx-option" data-key="CRYING" title="Crying">😭</button>
+            <button class="rx-option" data-key="BLOWN" title="Mind‑blown">🤯</button>
+            <button class="rx-option" data-key="HEART" title="Heart">❤️</button>
+          </div>
+        </div>
+      </div>
+      <div class="small" style="margin-top:8px">Click reactions in the bar to select/deselect. Selected reactions appear animated in the top‑right; selected in the bar dim with a pulsing dot. Both‑selected scale 1.2× with stronger glow. Animations adjust with Minimal/Retro tokens.</div>
+    </div>
+
+    <script>
+      // Minimal, namespaced ReactionSystem for DS demo only.
+      (function(){
+        const CATALOG = [
+          { key:'FIRE', emoji:'🔥', anim:'rx-anim-fire' },
+          { key:'DEAD', emoji:'👀', anim:'rx-anim-eyes' }, // UI swap: 'DEAD' renders as Eyes
+          { key:'FACTS', emoji:'🎯', anim:'rx-anim-target' },
+          { key:'BOOM', emoji:'💥', anim:'rx-anim-boom' },
+          { key:'CRYING', emoji:'😭', anim:'rx-anim-crying' },
+          { key:'BLOWN', emoji:'🤯', anim:'rx-anim-mind' },
+          { key:'HEART', emoji:'❤️', anim:'rx-anim-heart' },
+        ];
+
+        // Preserve existing click animation feel (burst particles)
+        let layerEl = null;
+        function ensureLayer(){
+          if (!layerEl){ layerEl = document.createElement('div'); layerEl.className = 'particle-layer'; document.body.appendChild(layerEl); }
+          return layerEl;
+        }
+        function spawnParticles(x, y, key){
+          const layer = ensureLayer();
+          const sets = {
+            FIRE: { count:14, emojis:['🔥','✨'], palette:['#FF5722','#FF9800','#FFC107'] },
+            DEAD: { count:10, emojis:['👀','✖️'], palette:['#777','#999','#bbb'] },
+            FACTS: { count:12, emojis:['🎯','✨','⭐'], palette:['#FFD700','#FFF176','#FFECB3'] },
+            BOOM: { count:18, emojis:['💥','⭐','✨'], palette:['#FF1744','#FF5252','#FF8A80'] },
+            CRYING: { count:12, emojis:['💧','😢'], palette:['#2196F3','#03A9F4','#00BCD4'] },
+            BLOWN: { count:12, emojis:['🤯','⚡'], palette:['#FFFFFF','#E0F2F1','#FFCDD2'] },
+            HEART: { count:14, emojis:['❤️','✨'], palette:['#FF4D6D','#FF6B6B','#FFD6E0'] },
+          };
+          const cfg = sets[key] || sets.FACTS;
+          for (let i=0;i<cfg.count;i++){
+            const el = document.createElement('span');
+            el.className = 'particle';
+            const useEmoji = i % 2 === 0;
+            if (useEmoji) { el.textContent = cfg.emojis[Math.floor(Math.random()*cfg.emojis.length)]; el.style.fontSize = `${12 + Math.random()*6}px`; }
+            else { el.classList.add('circle'); el.style.setProperty('--color', cfg.palette[Math.floor(Math.random()*cfg.palette.length)]); }
+            el.style.left = `${x}px`; el.style.top = `${y}px`;
+            const angle = Math.random() * Math.PI * 2;
+            const base = { BOOM:90, FIRE:70 }[key] || 60;
+            const dist = 40 + Math.random() * base;
+            const dx = Math.cos(angle) * dist;
+            const dy = Math.sin(angle) * dist * ({ CRYING:1.4, FIRE:0.7 }[key] || 1);
+            el.style.setProperty('--dx', `${dx}px`);
+            el.style.setProperty('--dy', `${dy}px`);
+            el.style.setProperty('--rot', `${(Math.random()*120)-60}deg`);
+            el.style.setProperty('--dur', `${450 + Math.random()*450}ms`);
+            layer.appendChild(el);
+            el.addEventListener('animationend', ()=> el.remove());
+          }
+        }
+
+        class ReactionSystem {
+          constructor(root, opts){
+            this.root = root;
+            this.cluster = root.querySelector('[data-rx="cluster"]');
+            this.selector = root.querySelector('[data-rx="selector"]');
+            this.current = opts.currentUser || 'me';
+            this.participants = opts.participants || ['me','friend'];
+            this.state = new Map(); // key -> Set(users)
+            (opts.initial || []).forEach(({key, users}) => this.state.set(key, new Set(users)));
+            this.selector.addEventListener('click', (e) => {
+              const btn = e.target.closest('.rx-option');
+              if (!btn) return;
+              const key = btn.getAttribute('data-key');
+              this.toggle(key, btn);
+            });
+            this.render();
+          }
+          toggle(key, btn){
+            const users = this.state.get(key) || new Set();
+            if (users.has(this.current)) users.delete(this.current); else users.add(this.current);
+            this.state.set(key, users);
+            // Preserve existing click animation (burst)
+            const rect = btn.getBoundingClientRect();
+            const x = rect.left + rect.width/2; const y = rect.top + rect.height/2;
+            spawnParticles(x, y, key);
+            this.render();
+          }
+          render(){
+            // Update selector buttons
+            this.selector.querySelectorAll('.rx-option').forEach(btn => {
+              const key = btn.getAttribute('data-key');
+              const users = this.state.get(key) || new Set();
+              btn.classList.toggle('is-selected', users.has(this.current));
+            });
+            // Update cluster
+            const seen = new Set();
+            CATALOG.forEach(({key, emoji, anim}) => {
+              const users = this.state.get(key) || new Set();
+              const count = users.size;
+              const dataSel = `[data-key="${key}"]`;
+              let el = this.cluster.querySelector(dataSel);
+              if (count === 0){ if (el) el.remove(); return; }
+              if (!el){ el = document.createElement('span'); el.className = 'rx-badge rx-enter'; el.setAttribute('data-key', key); el.textContent = emoji; this.cluster.appendChild(el); setTimeout(()=>el.classList.remove('rx-enter'), 550); }
+              // reset classes then apply
+              el.className = 'rx-badge ' + anim + (count === 2 ? ' rx-both' : '');
+              seen.add(key);
+            });
+            // Remove any stray nodes not present in catalog
+            this.cluster.querySelectorAll('[data-key]').forEach(n => { if (!seen.has(n.getAttribute('data-key'))) n.remove(); });
+          }
+        }
+
+        // Mount demo
+        const card = document.getElementById('rx-card-1');
+        if (card) new ReactionSystem(card, { currentUser: 'user1', participants: ['user1','user2'], initial: [ { key:'HEART', users:['user1','user2'] }, { key:'FIRE', users:['user1'] } ] });
+      })();
+    </script>
+<script>
+  const html = document.documentElement;
+  const bMin = document.getElementById('b-min');
+  const bRet = document.getElementById('b-ret');
+  function setTheme(name){
+    html.classList.toggle('theme-retro', name==='retro');
+    bMin.setAttribute('aria-pressed', String(name==='minimal'));
+    bRet.setAttribute('aria-pressed', String(name==='retro'));
+    html.classList.toggle('theme-minimal', name==='minimal');
+  }
+  bMin.onclick=()=>setTheme('minimal');
+  bRet.onclick=()=>setTheme('retro');
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "id": "1965129505913356794",
+  "url": "https://x.com/claudeai/status/1965129505913356794",
+  "original": {
+    "id": "1965129505913356794",
+    "author": {
+      "name": "Claude",
+      "handle": "claudeai"
+    },
+    "text": "Claude now connects to your world on mobile.\n\nWith your permission, Claude can find nearby spots, check your calendar, and schedule events—all without leaving the app.",
+    "timestamp": "2025-09-08T19:05:59.000Z",
+    "media": {
+      "type": "image",
+      "provider": "twitter",
+      "sourceUrl": "https://pbs.twimg.com/amplify_video_thumb/1965128287371624451/img/In12tE16qPFPiTEY?format=jpg&name=small",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/1965128287371624451/img/In12tE16qPFPiTEY?format=jpg&name=small",
+      "width": 680,
+      "height": 383,
+      "aspectRatio": "1.78:1",
+      "alt": "A smartphone screen displays a chat interface with Claude, featuring a beige background and text conversations. The screen shows a series of messages, including \"Help me find time for lunch with Conor near the joint, I mean, from about a good burger spot?\" and Claude\\'s responses suggesting times and locations. A map pin marks \"Near San Mateo, CA\" on the screen, and text lists top burger spots like In-N-Out Burger and Gott\\'s Roadside. Additional messages show Claude creating a calendar event and drafting an invitation for Conor, with a red star icon next to Claude\\'s name."
+    }
+  },
+  "replies": [
+    {
+      "id": "1965129895920730607",
+      "author": {
+        "name": "Aaron (Qualitativ AI)",
+        "handle": "QualitativAi"
+      },
+      "text": "Finally!! Claude is becoming more and more the everything agent!",
+      "timestamp": "2025-09-08T19:07:32.000Z"
+    },
+    {
+      "id": "1965136441987809583",
+      "author": {
+        "name": "Anish",
+        "handle": "AnishDabhane"
+      },
+      "text": "RIP Privacy.",
+      "timestamp": "2025-09-08T19:33:32.000Z"
+    },
+    {
+      "id": "1965131557162942549",
+      "author": {
+        "name": "Manifold",
+        "handle": "ManifoldMarkets"
+      },
+      "text": "Yes Claude I would give you access to anything no matter how technically secure it was",
+      "timestamp": "2025-09-08T19:14:08.000Z"
+    },
+    {
+      "id": "1965133803565056445",
+      "author": {
+        "name": "ToyKids",
+        "handle": "toy_kids2025"
+      },
+      "text": "",
+      "timestamp": "2025-09-08T19:23:03.000Z"
+    },
+    {
+      "id": "1965129681935761655",
+      "author": {
+        "name": "O.C. Charles",
+        "handle": "_nslogbryant"
+      },
+      "text": "",
+      "timestamp": "2025-09-08T19:06:41.000Z"
+    }
+  ],
+  "curator": null,
+  "createdAt": "2025-09-09T00:26:07.781Z",
+  "viewMode": "thread"
+}
+

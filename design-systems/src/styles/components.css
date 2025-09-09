@@ -1,0 +1,74 @@
+
+*{box-sizing:border-box}
+.card{
+  background:var(--card); border:1px solid var(--stroke);
+  border-radius:var(--radius); box-shadow:0 6px 24px var(--shadow);
+  padding:16px
+}
+html.theme-retro .card{
+  border:3px solid var(--stroke); box-shadow:4px 6px 0 var(--stroke);
+}
+.badge{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:12px;
+  background:var(--highlight);color:#1C1C1E;border-radius:999px;padding:6px 10px}
+.pill{display:inline-block;border:1px solid var(--stroke);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:12px}
+.button{display:inline-flex;align-items:center;gap:8px;border:none;border-radius:999px;
+  padding:.8rem 1.1rem;font-weight:700;cursor:pointer}
+.button.primary{background:var(--accent);color:white;box-shadow:0 6px 24px var(--shadow)}
+html.theme-retro .button.primary{box-shadow:2px 3px 0 var(--stroke)}
+.meter{height:10px;border-radius:999px;background:#E5E7EB;position:relative;overflow:hidden}
+.meter > i{position:absolute;inset:0 40% 0 0;background:linear-gradient(90deg,var(--highlight),var(--accent))}
+.wordmark{font-weight:800;font-size:32px;letter-spacing:-.3px}
+.retro-banner{
+  display:inline-block; padding:10px 14px; border-radius:10px;
+  background:linear-gradient(135deg,#6C5CE7,#FF3B81); color:#FFF6E5;
+  font-family:var(--font-retro); font-size:40px; border:6px solid var(--stroke);
+  text-shadow:1px 1px 0 var(--stroke);
+}
+
+/* Reactions (LoopsDS) */
+/* Compact indicator system: selector bar + top-right cluster */
+.rx-active{position:absolute;top:12px;right:12px;display:flex;gap:8px;z-index:2}
+.rx-badge{display:inline-block;font-size:22px;line-height:1;filter:drop-shadow(0 2px 8px var(--shadow));transition:transform .25s ease}
+.rx-badge.rx-both{transform:scale(1.2);filter:drop-shadow(0 4px 12px color-mix(in oklab, var(--accent) 60%, transparent))}
+.rx-badge.rx-enter{animation:rx-enter .5s cubic-bezier(.4,0,.2,1)}
+@keyframes rx-enter{0%{transform:translate(-24px,12px) scale(.6);opacity:0}50%{transform:translate(-12px,6px) scale(1.05);opacity:.8}100%{transform:translate(0,0) scale(1);opacity:1}}
+
+.rx-selector{display:flex;align-items:center;gap:8px;background:color-mix(in oklab,var(--card) 92%, transparent);border:1px solid var(--stroke);border-radius:999px;padding:6px 10px;width:max-content;margin:12px auto 0;box-shadow:0 6px 24px var(--shadow)}
+html.theme-retro .rx-selector{border-width:3px;box-shadow:2px 3px 0 var(--stroke)}
+.rx-option{position:relative;background:transparent;border:none;padding:6px 8px;border-radius:999px;cursor:pointer;font-size:18px;line-height:1;transition:transform .15s ease}
+.rx-option:hover{transform:translateY(-1px) scale(1.05)}
+.rx-option.is-selected{opacity:.55}
+.rx-option.is-selected::after{content:"";position:absolute;left:50%;bottom:-4px;width:4px;height:4px;background:var(--accent);border-radius:50%;transform:translateX(-50%);animation:rx-dot 1.6s ease-in-out infinite}
+@keyframes rx-dot{0%,100%{transform:translateX(-50%) scale(1);opacity:.7}50%{transform:translateX(-50%) scale(1.35);opacity:1}}
+
+/* Label-specific motion (applied to .rx-badge) */
+.rx-anim-fire{animation:rx-fire 1.5s ease-in-out infinite;transform-origin:center bottom}
+@keyframes rx-fire{0%,100%{transform:scale(1) translateY(0);filter:brightness(1) drop-shadow(0 2px 8px rgba(255,100,0,.4))}25%{transform:scale(1.15) translateY(-2px);filter:brightness(1.2) drop-shadow(0 3px 10px rgba(255,100,0,.6))}50%{transform:scale(1.3) translateY(-1px);filter:brightness(1.3) drop-shadow(0 4px 12px rgba(255,100,0,.7))}75%{transform:scale(1.1) translateY(-3px);filter:brightness(1.1) drop-shadow(0 3px 10px rgba(255,100,0,.5))}}
+
+.rx-anim-eyes{animation:rx-eyes 2s ease-in-out infinite}
+@keyframes rx-eyes{0%,100%{transform:translateX(0)}20%{transform:translateX(-2px)}40%{transform:translateX(2px)}60%{transform:translateX(-1px)}80%{transform:translateX(1px)}}
+
+.rx-anim-target{animation:rx-target 2s linear infinite}
+@keyframes rx-target{0%{transform:rotate(0) scale(1)}25%{transform:rotate(90deg) scale(1.05)}50%{transform:rotate(180deg) scale(1)}75%{transform:rotate(270deg) scale(1.05)}100%{transform:rotate(360deg) scale(1)}}
+
+.rx-anim-boom{animation:rx-boom 1.4s ease-out infinite}
+@keyframes rx-boom{0%{transform:scale(1);filter:drop-shadow(0 2px 8px rgba(255,0,110,.25))}35%{transform:scale(1.25);filter:drop-shadow(0 4px 12px rgba(255,0,110,.45))}70%{transform:scale(1.05);filter:drop-shadow(0 3px 10px rgba(255,0,110,.35))}100%{transform:scale(1)}}
+
+.rx-anim-crying{animation:rx-crying 1.8s ease-in-out infinite}
+@keyframes rx-crying{0%,100%{transform:translateY(0) scale(1)}30%{transform:translateY(2px) scale(.98)}50%{transform:translateY(-1px) scale(1.02)}70%{transform:translateY(3px) scale(.97)}}
+
+.rx-anim-mind{animation:rx-mind 2.3s ease-in-out infinite}
+@keyframes rx-mind{0%,100%{transform:scale(1) rotate(0)}20%{transform:scale(1.1) rotate(-3deg)}40%{transform:scale(1.2) rotate(5deg)}50%{transform:scale(1.25) rotate(-2deg)}60%{transform:scale(1.15) rotate(3deg)}80%{transform:scale(1.05) rotate(-1deg)}}
+
+.rx-anim-heart{animation:rx-heart 1.4s ease-in-out infinite;transform-origin:center}
+@keyframes rx-heart{0%,100%{transform:scale(1)}10%{transform:scale(1.15)}20%{transform:scale(1)}30%{transform:scale(1.15)}40%{transform:scale(1)}}
+
+/* Ephemeral burst for DS demo (optional) */
+.rx-ephem{position:absolute;pointer-events:none;font-size:18px;line-height:1;animation:rx-pop .7s ease-out forwards}
+@keyframes rx-pop{0%{opacity:0;transform:translateY(0) scale(.9)}20%{opacity:1;transform:translateY(-6px) scale(1.15)}100%{opacity:0;transform:translateY(-26px) scale(.95)}}
+
+/* Particle burst (preserve existing click animation feel) */
+.particle-layer{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:9999}
+.particle{position:absolute;font-size:14px;line-height:1;opacity:0;transform:translate(0,0) scale(1) rotate(0deg);animation:particleMove var(--dur,700ms) ease-out forwards;filter:drop-shadow(0 2px 6px rgba(0,0,0,.2))}
+.particle.circle{width:8px;height:8px;border-radius:9999px;background:var(--color, #fff)}
+@keyframes particleMove{0%{opacity:0;transform:translate(0,0) scale(1) rotate(0deg)}15%{opacity:1}100%{opacity:0;transform:translate(var(--dx,0px), var(--dy,0px)) scale(.6) rotate(var(--rot,0deg))}}

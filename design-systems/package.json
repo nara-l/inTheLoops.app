@@ -1,0 +1,9 @@
+{
+  "name": "loopsds",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "og": "node tools/og/generate.mjs \"Curated replies, threads & comments—beautifully shared.\""
+  },
+  "devDependencies": {}
+}
