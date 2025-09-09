@@ -1,0 +1,200 @@
+
+> viewer@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.14.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 1225ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 2.6s
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1228ms
+ GET /view 500 in 4123ms
+ ✓ Compiled /favicon.ico in 233ms
+ GET /favicon.ico 500 in 315ms
+ ○ Compiling /view/[id] ...
+ ✓ Compiled /view/[id] in 916ms
+ GET /view/demo1?mode=minimal2 500 in 999ms
+ GET /view/demo1?mode=retro2 500 in 96ms
+ ✓ Compiled in 187ms
+ ✓ Compiled in 123ms
+ ○ Compiling / ...
+ ✓ Compiled / in 525ms
+ GET / 200 in 1170ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 530ms
+ GET / 200 in 145ms
+ ✓ Compiled in 304ms
+ ✓ Compiled in 254ms
+ ✓ Compiled in 193ms
+ ✓ Compiled in 219ms
+ GET / 200 in 584ms
+ ○ Compiling /demo ...
+ ✓ Compiled /demo in 1044ms
+ GET /demo 200 in 1222ms
+ ○ Compiling /api/bangs/[id]/reactions ...
+ ✓ Compiled /api/bangs/[id]/reactions in 798ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 2215ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 2216ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 2216ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 2219ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 2217ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 2217ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 488ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 497ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 504ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 511ms
+ GET /demo?mode=retro-old 200 in 188ms
+ GET /demo?mode=minimal-old 200 in 166ms
+ GET /demo?mode=retro 200 in 207ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 686ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 694ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 699ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 703ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 710ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 715ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 533ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 538ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 547ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 552ms
+ GET /demo?mode=retro-old 200 in 175ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 652ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 664ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 670ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 675ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 680ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 687ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 512ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 515ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 520ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 525ms
+ GET /demo 200 in 161ms
+ GET /demo?mode=minimal-old 200 in 157ms
+ GET /demo?mode=retro-old 200 in 155ms
+ GET /demo 200 in 169ms
+ GET /demo?mode=retro 200 in 165ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 601ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 609ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 613ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 620ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 624ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 632ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 516ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 526ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 531ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 536ms
+ GET /demo?mode=retro-old 200 in 148ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 655ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 662ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 667ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 673ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 680ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 686ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 526ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 533ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 537ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 543ms
+ GET /demo?mode=minimal-old 200 in 181ms
+ GET /demo?mode=retro-old 200 in 184ms
+ GET /demo 200 in 167ms
+ GET /demo?mode=retro 200 in 168ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 631ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 644ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 649ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 654ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 662ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 668ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 510ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 521ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 526ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 531ms
+ GET /demo?mode=minimal-old 200 in 165ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 670ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 687ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 701ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 708ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 716ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 727ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 699ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 668ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 679ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 684ms
+ ✓ Compiled /view/[id] in 71ms
+ ✓ Compiled /api/bangs/[id] in 198ms
+ GET /api/bangs/demo1 500 in 1529ms
+ GET /view/demo1 200 in 2815ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 602ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 603ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 611ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 618ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 623ms
+ GET /api/bangs/demo1 500 in 365ms
+ GET /view/demo1?mode=retro-old 200 in 526ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 648ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 651ms
+ GET /api/bangs/demo1/reactions?card=s_e2d544d9 200 in 655ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 661ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 668ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 674ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 545ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 558ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 566ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 572ms
+ GET /api/bangs/demo1 500 in 392ms
+ GET /view/demo1?mode=minimal-old 200 in 565ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 688ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 699ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 704ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 710ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 716ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 722ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 516ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 527ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 533ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 541ms
+ GET /api/bangs/demo1 500 in 387ms
+ GET /view/demo1?mode=retro 200 in 592ms
+ GET /api/bangs/demo1 500 in 340ms
+ GET /view/demo1 200 in 504ms
+ GET /api/bangs/demo1 500 in 364ms
+ GET /view/demo1?mode=retro 200 in 529ms
+ ✓ Compiled in 357ms
+ ✓ Compiled in 650ms
+ ✓ Compiled in 303ms
+ ✓ Compiled in 701ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 1264ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 1269ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 1276ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 1284ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 1288ms
+ GET /api/bangs/demo1 500 in 464ms
+ GET /view/demo1?mode=retro 200 in 1726ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 532ms
+ GET /api/bangs/demo1/reactions?card=original-1234567890 200 in 819ms
+ GET /api/bangs/demo1/reactions?card=1234567891 200 in 805ms
+ GET /api/bangs/demo1/reactions?card=1234567894 200 in 802ms
+ GET /api/bangs/demo1/reactions?card=1234567892 200 in 814ms
+ GET /api/bangs/demo1/reactions?card=1234567893 200 in 818ms
+ ✓ Compiled in 322ms
+ ✓ Compiled in 281ms
+ ✓ Compiled in 1000ms
+ ✓ Compiled /view/[id] in 206ms
+ GET /api/bangs/demo1 500 in 484ms
+ GET /view/demo1?mode=retro 200 in 991ms
+ ✓ Compiled in 267ms
+ ✓ Compiled /view/[id] in 94ms
+ GET /api/bangs/demo1 500 in 476ms
+ GET /view/demo1?mode=retro 200 in 867ms
+ GET /api/bangs/demo1 500 in 814ms
+ GET /view/demo1?mode=retro 200 in 1315ms
+ GET /api/bangs/demo1 500 in 892ms
+ GET /view/demo1?mode=retro 200 in 1363ms
+ ✓ Compiled in 597ms
+ GET /api/bangs/demo1 500 in 477ms
+ GET /view/demo1?mode=retro 200 in 828ms
+ ✓ Compiled in 361ms
+ GET /api/bangs/demo1 500 in 385ms
+ GET /view/demo1?mode=retro 200 in 643ms
+[?25h

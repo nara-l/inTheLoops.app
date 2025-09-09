@@ -1,0 +1,31 @@
+/* Combo reaction control for Retro theme */
+.combo { position: relative; display: inline-block; }
+.pill { 
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #fff; color: #000; padding: 8px 12px;
+  border: 3px solid #000; border-radius: 12px;
+  box-shadow: 4px 4px 0 #000; cursor: pointer;
+  transform: rotate(-1.5deg);
+}
+.burst::after { content: ""; position: absolute; left: 50%; top: 50%; width: 6px; height: 6px; transform: translate(-50%, -50%); border-radius: 9999px; border: 2px solid rgba(255,23,68,0.7); animation: retroRing 0.45s ease-out forwards; pointer-events: none; }
+
+@keyframes retroRing { 0% { transform: translate(-50%, -50%) scale(0.5); opacity: 1; } 100% { transform: translate(-50%, -50%) scale(3); opacity: 0; } }
+.pill.active { background: #FFD84D; }
+.emoji { font-size: 18px; line-height: 1; }
+.count { font-weight: 800; font-size: 12px; }
+.caret { margin-left: 4px; font-size: 12px; opacity: .8; }
+
+.tray {
+  position: absolute; left: 0; top: calc(100% + 8px);
+  background: #fff; border: 3px solid #000; border-radius: 12px;
+  box-shadow: 6px 6px 0 #000; padding: 8px; z-index: 40;
+  display: grid; grid-template-columns: repeat(6, auto); gap: 6px;
+}
+.option { display: inline-flex; align-items: center; gap: 6px; padding: 6px 8px; border: 2px solid #000; border-radius: 8px; background: #fff; cursor: pointer; }
+.option:hover, .option.active { background: #FFD84D; }
+.option .emoji { font-size: 18px; }
+.srOnly { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+@media (max-width: 640px) {
+  .tray { grid-template-columns: repeat(3, auto); }
+}

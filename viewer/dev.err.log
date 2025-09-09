@@ -1,0 +1,877 @@
+ ⨯ ./src/app/globals.css:869:8
+Parsing CSS source code failed
+[0m [90m 867 |[39m   }
+ [90m 868 |[39m }
+[31m[1m>[22m[39m[90m 869 |[39m [33m@[39m[36mimport[39m url([32m"../styles/ds/tokens.css"[39m)[33m;[39m
+ [90m     |[39m        [31m[1m^[22m[39m
+ [90m 870 |[39m [33m@[39m[36mimport[39m url([32m"../styles/ds/components.css"[39m)[33m;[39m
+ [90m 871 |[39m [33m:[39mroot {
+ [90m 872 |[39m   [33m--[39mbackground[33m:[39m [33m#[39m[33mFAFAF8[39m[33m;[39m[0m
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+ ⨯ ./src/app/globals.css:869:8
+Parsing CSS source code failed
+[0m [90m 867 |[39m   }
+ [90m 868 |[39m }
+[31m[1m>[22m[39m[90m 869 |[39m [33m@[39m[36mimport[39m url([32m"../styles/ds/tokens.css"[39m)[33m;[39m
+ [90m     |[39m        [31m[1m^[22m[39m
+ [90m 870 |[39m [33m@[39m[36mimport[39m url([32m"../styles/ds/components.css"[39m)[33m;[39m
+ [90m 871 |[39m [33m:[39mroot {
+ [90m 872 |[39m   [33m--[39mbackground[33m:[39m [33m#[39m[33mFAFAF8[39m[33m;[39m[0m
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+ ⨯ ./src/components/ReplyCard.tsx:8:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m  6 |[39m [36mimport[39m { replyCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m  7 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m"react"[39m[33m;[39m
+ [90m 10 |[39m
+ [90m 11 |[39m [36mexport[39m [36mfunction[39m [33mReplyCard[39m({ reply[33m,[39m index[33m,[39m depth [33m=[39m [35m0[39m[33m,[39m bangId[33m,[39m onHeat }[33m:[39m[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ReplyCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ReplyCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/ReplyCard.tsx:8:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m  6 |[39m [36mimport[39m { replyCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m  7 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m"react"[39m[33m;[39m
+ [90m 10 |[39m
+ [90m 11 |[39m [36mexport[39m [36mfunction[39m [33mReplyCard[39m({ reply[33m,[39m index[33m,[39m depth [33m=[39m [35m0[39m[33m,[39m bangId[33m,[39m onHeat }[33m:[39m[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ReplyCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ReplyCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/ReplyCard.tsx:8:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m  6 |[39m [36mimport[39m { replyCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m  7 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m"react"[39m[33m;[39m
+ [90m 10 |[39m
+ [90m 11 |[39m [36mexport[39m [36mfunction[39m [33mReplyCard[39m({ reply[33m,[39m index[33m,[39m depth [33m=[39m [35m0[39m[33m,[39m bangId[33m,[39m onHeat }[33m:[39m[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ReplyCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ReplyCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/ReplyCard.tsx:8:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m  6 |[39m [36mimport[39m { replyCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m  7 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m"react"[39m[33m;[39m
+ [90m 10 |[39m
+ [90m 11 |[39m [36mexport[39m [36mfunction[39m [33mReplyCard[39m({ reply[33m,[39m index[33m,[39m depth [33m=[39m [35m0[39m[33m,[39m bangId[33m,[39m onHeat }[33m:[39m[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ReplyCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ReplyCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/TweetCard.tsx:4:1
+Module not found: Can't resolve './FloatingReactions'
+[0m [90m 2 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"./Avatar"[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { [33mMetrics[39m } [36mfrom[39m [32m"./Metrics"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"./FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { useSearchParams } [36mfrom[39m [32m"next/navigation"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mfunction[39m [33mTweetCard[39m({ tweet[33m,[39m bangId[33m,[39m onHeat }[33m:[39m { tweet[33m:[39m [33mTweetLike[39m [33m|[39m [36mnull[39m[33m;[39m bangId[33m?[39m[33m:[39m string [33m|[39m [36mnull[39m[33m;[39m onHeat[33m?[39m[33m:[39m (delta[33m:[39m number) [33m=>[39m [36mvoid[39m }) {[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/TweetCard.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Client Component Browser]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/TweetCard.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Client Component SSR]
+    ./src/components/Viewer.tsx [Server Component]
+    ./src/app/view/[id]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/components/Retro.tsx:6:1
+Module not found: Can't resolve '@/components/FloatingReactions'
+[0m [90m 4 |[39m [36mimport[39m type { [33mConversation[39m } [36mfrom[39m [32m"@/lib/types"[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mAvatar[39m } [36mfrom[39m [32m"@/components/Avatar"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mFloatingReactions[39m } [36mfrom[39m [32m"@/components/FloatingReactions"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mHeatWidget[39m } [36mfrom[39m [32m"@/components/HeatWidget"[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { replyCardId[33m,[39m stableCardId } [36mfrom[39m [32m"@/lib/stableId"[39m[33m;[39m
+ [90m 9 |[39m [36mimport[39m { [33mFAB[39m } [36mfrom[39m [32m"./FAB"[39m[33m;[39m[0m
+
+Import map: aliased to relative './src/components/FloatingReactions' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/Retro.tsx
+    ./src/app/view/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:26)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                          ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+Error: Route "/demo" used `searchParams.mode`. `searchParams` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at DemoPage (src\app\demo\page.tsx:9:49)
+   7 | export default function DemoPage({ searchParams }: { searchParams?: { [key: string]: string | string[] | undefined } }) {
+   8 |   const sp = searchParams || {};
+>  9 |   const mode = typeof sp.mode === "string" ? sp.mode : undefined;
+     |                                                 ^
+  10 |
+  11 |   if (mode === 'playful') {
+  12 |     return <Playful data={demoConversation} />;
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.

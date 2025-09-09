@@ -1,0 +1,27 @@
+
+*{box-sizing:border-box}
+.card{
+  background:var(--card); border:1px solid var(--stroke);
+  border-radius:var(--radius); box-shadow:0 6px 24px var(--shadow);
+  padding:16px
+}
+html.theme-retro .card{
+  border:3px solid var(--stroke); box-shadow:4px 6px 0 var(--stroke);
+}
+.badge{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:12px;
+  background:var(--highlight);color:#1C1C1E;border-radius:999px;padding:6px 10px}
+.pill{display:inline-block;border:1px solid var(--stroke);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:12px}
+.button{display:inline-flex;align-items:center;gap:8px;border:none;border-radius:999px;
+  padding:.8rem 1.1rem;font-weight:700;cursor:pointer}
+.button.primary{background:var(--accent);color:white;box-shadow:0 6px 24px var(--shadow)}
+html.theme-retro .button.primary{box-shadow:2px 3px 0 var(--stroke)}
+.meter{height:10px;border-radius:999px;background:#E5E7EB;position:relative;overflow:hidden}
+.meter > i{position:absolute;inset:0 40% 0 0;background:linear-gradient(90deg,var(--highlight),var(--accent))}
+.wordmark{font-weight:800;font-size:32px;letter-spacing:-.3px}
+.retro-banner{
+  display:inline-block; padding:10px 14px; border-radius:10px;
+  background:linear-gradient(135deg,#6C5CE7,#FF3B81); color:#FFF6E5;
+  font-family:var(--font-retro); font-size:40px; border:6px solid var(--stroke);
+  text-shadow:1px 1px 0 var(--stroke);
+}
+
