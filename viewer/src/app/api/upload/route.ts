@@ -41,11 +41,8 @@ export async function POST(req: NextRequest) {
     const safeBase = sanitizeFilename(name.replace(/\.[^.]+$/i, "")) || "video";
     const pathname = `media/${safeBase}.mp4`;
 
-    // Convert to Buffer for robust Node uploads
-    const ab = await file.arrayBuffer();
-    const buf = Buffer.from(ab);
-
-    const { url } = await put(pathname, buf, {
+    // Stream file directly to Vercel Blob to avoid function payload limits
+    const { url } = await put(pathname, file.stream(), {
       access: "public",
       addRandomSuffix: true,
       contentType: "video/mp4",
