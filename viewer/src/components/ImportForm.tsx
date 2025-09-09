@@ -37,10 +37,6 @@ export function ImportForm() {
       const blob = await upload(file.name, file, {
         access: 'public',
         handleUploadUrl: '/api/upload-token',
-        clientPayload: {
-          type: file.type,
-          size: file.size,
-        },
       });
       
       setProgress(100);

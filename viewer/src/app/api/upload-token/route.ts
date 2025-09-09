@@ -16,17 +16,11 @@ export async function POST(request: NextRequest) {
       body,
       request,
       token,
-      onBeforeGenerateToken: async (pathname, clientPayload) => {
-        // Validate file type and size
-        const payload = clientPayload as { type?: string; size?: number } | undefined;
-        const { type, size } = payload || {};
+      onBeforeGenerateToken: async (pathname) => {
+        // Validate based on pathname extension
         const maxBytes = 100 * 1024 * 1024; // 100 MB
         
-        if (size && size > maxBytes) {
-          throw new Error('File exceeds 100 MB limit');
-        }
-        
-        if (type && type !== 'video/mp4') {
+        if (!pathname.toLowerCase().endsWith('.mp4')) {
           throw new Error('Only MP4 files are allowed');
         }
 
