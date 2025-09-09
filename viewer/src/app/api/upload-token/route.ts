@@ -18,15 +18,15 @@ export async function POST(request: NextRequest) {
       token,
       onBeforeGenerateToken: async (pathname, clientPayload) => {
         // Validate file type and size
-        const { type, size } = clientPayload;
+        const payload = clientPayload as { type?: string; size?: number } | undefined;
+        const { type, size } = payload || {};
         const maxBytes = 100 * 1024 * 1024; // 100 MB
         
-        if (size > maxBytes) {
+        if (size && size > maxBytes) {
           throw new Error('File exceeds 100 MB limit');
         }
         
-        const isMp4 = type === 'video/mp4';
-        if (!isMp4) {
+        if (type && type !== 'video/mp4') {
           throw new Error('Only MP4 files are allowed');
         }
 
@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
           maximumSizeInBytes: maxBytes,
         };
       },
-      onUploadCompleted: async ({ blob, tokenPayload }) => {
+      onUploadCompleted: async ({ blob }) => {
         console.log('Upload completed:', blob.url);
         // You can add any post-upload logic here
       },
