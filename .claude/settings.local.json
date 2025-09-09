@@ -66,7 +66,14 @@
       "Bash(git add:*)",
       "Bash(rm:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(gh auth:*)",
+      "WebSearch",
+      "Bash(npm install:*)",
+      "Bash(npm test)",
+      "Bash(timeout 10 npm run test:watch)",
+      "Bash(npx husky init:*)"
     ],
     "deny": [],
     "ask": []
