@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import { useRouter } from "next/navigation";
+import { upload } from '@vercel/blob/client';
 
 export function ImportForm() {
   const [text, setText] = React.useState("");
@@ -15,6 +16,7 @@ export function ImportForm() {
     setVideoError(null);
     setProgress(0);
     if (!file) return;
+    
     // Basic client validation
     const isMp4 = file.type === 'video/mp4' || file.name.toLowerCase().endsWith('.mp4');
     if (!isMp4) {
@@ -26,42 +28,23 @@ export function ImportForm() {
       setVideoError('File exceeds 100 MB limit.');
       return;
     }
-    // Upload with XHR for progress
+    
+    // Client-side upload directly to Vercel Blob
     try {
       setUploading(true);
-      const formData = new FormData();
-      formData.append('file', file);
-      const url = await new Promise<string>((resolve, reject) => {
-        const xhr = new XMLHttpRequest();
-        xhr.open('POST', '/api/upload');
-        xhr.upload.onprogress = (e) => {
-          if (e.lengthComputable) {
-            setProgress(Math.round((e.loaded / e.total) * 100));
-          }
-        };
-        xhr.onreadystatechange = () => {
-          if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status >= 200 && xhr.status < 300) {
-              try {
-                const data = JSON.parse(xhr.responseText);
-                resolve(data.url as string);
-              } catch (err) {
-                reject(new Error('Invalid server response'));
-              }
-            } else {
-              try {
-                const data = JSON.parse(xhr.responseText);
-                reject(new Error(data?.error || 'Upload failed'));
-              } catch {
-                reject(new Error('Upload failed'));
-              }
-            }
-          }
-        };
-        xhr.onerror = () => reject(new Error('Network error'));
-        xhr.send(formData);
+      setProgress(50); // Show progress since we can't track actual progress with client uploads
+      
+      const blob = await upload(file.name, file, {
+        access: 'public',
+        handleUploadUrl: '/api/upload-token',
+        clientPayload: {
+          type: file.type,
+          size: file.size,
+        },
       });
-      setVideoUrl(url);
+      
+      setProgress(100);
+      setVideoUrl(blob.url);
     } catch (err: unknown) {
       setVideoError(err instanceof Error ? err.message : 'Upload failed');
     } finally {
